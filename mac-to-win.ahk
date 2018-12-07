@@ -16,5 +16,12 @@ return
 !L::Send, ^l
 #IfWinActive
 
+; Command-C, Command-V and Command-X for copy, paste and cut
+; Command-Z for undo
+!c::Send, ^c
+!v::Send, ^v
+!x::Send, ^x
+!z::Send, ^z
+
 ; Lenovo-specific placement of the Print Screen button makes it much better candidate for Win button
 PrintScreen::RWin
