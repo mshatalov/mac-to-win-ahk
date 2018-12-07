@@ -8,6 +8,7 @@ It also addresses a minor inconvenience with Lenovo's placement of Print Screen 
 |-|-|-|
 |Spotlight / Start menu|Ctrl-Space|Control-Space|
 |Language switching|Alt-Space|Command-Space|
-|Tabs closing, opening and focusing location bar in Chrome|Alt-W, Alt-T, Alt-L|Control-W, Control-T, Conrtol-L|
-|Copy, Paste, Cut and Undo|Alt-C, Alt-V, Alt-X, Alt-Z|Control-C, Control-V, Control-X, Control-Z|
+|Tabs closing, opening and focusing location bar in Chrome|Alt-W, Alt-T, Alt-L|Command-W, Command-T, Command-L|
+|Tab reopening in Chrome|Alt-Shift-T|Command-Shift-T|
+|Copy, Paste, Cut and Undo|Alt-C, Alt-V, Alt-X, Alt-Z|Command-C, Command-V, Command-X, Command-Z|
 |Start menu instead of Lenovo-specific placement of Print Screen|Print Screen|n/a|

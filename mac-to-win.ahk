@@ -13,6 +13,7 @@ return
 #IfWinActive, ahk_class Chrome_WidgetWin_1
 !W::Send, ^w
 !T::Send, ^t
++!T::Send, ^T
 !L::Send, ^l
 #IfWinActive
 
