@@ -19,10 +19,16 @@ return
 
 ; Command-C, Command-V and Command-X for copy, paste and cut
 ; Command-Z for undo
+; Command-A for select all
 !c::Send, ^c
 !v::Send, ^v
 !x::Send, ^x
 !z::Send, ^z
+!a::Send, ^a
+
+; Command-B/I for bold or italics
+!b::Send, ^b
+!i::Send, ^i
 
 ; Lenovo-specific placement of the Print Screen button makes it much better candidate for Win button
 PrintScreen::RWin
