@@ -13,22 +13,29 @@ return
 #IfWinActive, ahk_class Chrome_WidgetWin_1
 !W::Send, ^w
 !T::Send, ^t
-+!T::Send, ^T
++!T::Send, ^+t
 !L::Send, ^l
++!N::Send, ^+n
 #IfWinActive
 
 ; Command-C, Command-V and Command-X for copy, paste and cut
 ; Command-Z for undo
 ; Command-A for select all
+; Command-F for search
 !c::Send, ^c
 !v::Send, ^v
 !x::Send, ^x
 !z::Send, ^z
 !a::Send, ^a
+!f::Send, ^f
 
 ; Command-B/I for bold or italics
 !b::Send, ^b
 !i::Send, ^i
+
+; Command-S and Command-Shift-S to save and save as
+!s::Send, ^s
++!s::Send, ^s
 
 ; Lenovo-specific placement of the Print Screen button makes it much better candidate for Win button
 PrintScreen::RWin
