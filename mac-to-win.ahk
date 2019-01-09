@@ -37,6 +37,3 @@ return
 ; Command-S and Command-Shift-S to save and save as
 !s::Send, ^s
 +!s::Send, ^s
-
-; Lenovo-specific placement of the Print Screen button makes it much better candidate for Win button
-PrintScreen::RWin
