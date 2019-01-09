@@ -4,7 +4,8 @@
 ; Simulates Command-Space to switch languages (Windows uses Win-Space which is one key further left, and is not configurable at the moment).
 ; This works properly if you keep Alt pressed and press Space multiple times as well.
 !Space::
-	Send, {Blind}{Ctrl}{Alt up}{LWin down}{Space}
+	Send, {LWin down}{Space}
+	Send, {Blind}{Alt up}
 	KeyWait, Alt
 	Send, {LWin up}
 return
