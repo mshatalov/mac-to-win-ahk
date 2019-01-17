@@ -14,6 +14,3 @@ As a bonus, there's a [registry key remapping](print-screen-to-rwin.reg) from Pr
 |Find|Alt-F|Command-F|
 |Bold, Italics|Alt-B, Alt-I|Command-B, Command-I|
 |Save, Save As|Alt-S, Alt-Shift-S|Command-S, Command-Shift-S|
-
-### Known issues
-If you press Alt-Space very quickly, it may open Start Menu instead of language switching.
