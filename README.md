@@ -10,6 +10,7 @@ As a bonus, there's a [registry key remapping](print-screen-to-rwin.reg) from Pr
 |Language switching|Alt-Space|Command-Space|
 |Tabs closing, opening and focusing location bar in Chrome|Alt-W, Alt-T, Alt-Shift-T, Alt-L|Command-W, Command-Shift-T, Command-T, Command-L|
 |Tab reopening in Chrome|Alt-Shift-T|Command-Shift-T|
+|Open link in a new tab in Chrome|Alt-Left Click|Command-Left Click|
 |Copy, Paste, Cut and Undo|Alt-C, Alt-V, Alt-X, Alt-Z|Command-C, Command-V, Command-X, Command-Z|
 |Find|Alt-F|Command-F|
 |Bold, Italics|Alt-B, Alt-I|Command-B, Command-I|

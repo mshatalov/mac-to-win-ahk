@@ -17,6 +17,7 @@ return
 +!T::Send, ^+t
 !L::Send, ^l
 +!N::Send, ^+n
+LAlt & LButton::Send, {LCtrl down}{LButton}{LCtrl up}
 #IfWinActive
 
 ; Command-C, Command-V and Command-X for copy, paste and cut
