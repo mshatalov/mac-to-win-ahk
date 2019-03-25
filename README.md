@@ -1,9 +1,9 @@
 ## mac-to-win-ahk
 Basic [AutoHotKey](https://www.autohotkey.com/) script for people who use Windows but prefer macOS hotkeys, such as if you use Mac at home and Windows at an office.
 
-As a bonus, there's a [registry key remapping](print-screen-to-rwin.reg) from Print Screen to RWin that addresses a minor inconvenience with specific placement of Print Screen on some keyboards. Note that if you had previously remapped keys via the registry, importing the registry file above may override them.
+As a bonus, there's a [registry key remapping](print-screen-to-rwin.reg) that addresses a minor inconvenience with specific placement of Print Screen, Page Up and Page Down buttons on some keyboards. See details [below](#registry-key-mapping).
 
-### What's covered
+### What's Covered
 |Feature|Windows|macOS original|
 |-|-|-|
 |Spotlight / Start menu|Ctrl-Space|Control-Space|
@@ -15,3 +15,12 @@ As a bonus, there's a [registry key remapping](print-screen-to-rwin.reg) from Pr
 |Find|Alt-F|Command-F|
 |Bold, Italics|Alt-B, Alt-I|Command-B, Command-I|
 |Save, Save As|Alt-S, Alt-Shift-S|Command-S, Command-Shift-S|
+
+### Registry Key Remapping
+Note that if you had previously remapped keys via the registry, importing the registry file above may override them.
+
+|Original Key|New Key|
+|-|-|
+|Print Screen|Right Win|
+|Page Up|Left Arrow|
+|Page Down|Right Arrow|
